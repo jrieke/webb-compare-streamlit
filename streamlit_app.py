@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_image_comparison import image_comparison
 
+st.set_page_config("Webb Compare Streamlit", "🔭")
 st.image("img/telescope.png", width=78)
 "# Webb Compare Streamlit"
 "This is a reproduction of the fantastic [WebbCompare](https://www.webbcompare.com/index.html) app by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
