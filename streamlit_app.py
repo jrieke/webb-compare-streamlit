@@ -3,7 +3,7 @@ from streamlit_image_comparison import image_comparison
 
 st.image("img/telescope.png", width=78)
 "# Webb Compare"
-"This is a Streamlit reproduction of the fantastic [WebbCompare app](https://www.webbcompare.com/index.html) built by [John Christensen](https://twitter.com/JohnnyC1423). It takes only 10 lines of code. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
+"This is a reproduction of the fantastic [WebbCompare app](https://www.webbcompare.com/index.html) by [John Christensen](https://twitter.com/JohnnyC1423). It's built in Streamlit and takes only 10 lines of Python. If you like this app, please star [John's original repo](https://github.com/JohnEdChristensen/WebbCompare)!"
 "### Southern Ring Nebula 💍"
 image_comparison("img/hubble/southern_nebula_1400.jpg", "img/webb/southern_nebula_1400.jpg", "Hubble", "Webb")
 "### Carina Nebula 💃"
